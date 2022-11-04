@@ -8,7 +8,7 @@ Cloing the repository:
 If you want to clone the repository using ssh you can go for that too.
 
 Installig the application (aminoacidProfiler):
-- In terminal navigate to the repository location.
+- In terminal navigate to the repository location using "cd".
 - run "ls" .
 - You can see the files from the repository, if not you are on the wrong location.
 - Run "python3 setup.py" .
