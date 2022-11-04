@@ -114,15 +114,10 @@ class Coronavar():
             Coronavar.csv_body()
             Coronavar.individual_csv_body(fasta_name)
 
-        #Clearing out amino acid count list for the next fasta format:
-        #amino_acid_count = []
 
     def printing_results():
-        #printing myTable:
         return(myTable)
 
-        #results.csv:
-        print('The results are also stored in results.csv')
 
     def file_extractor():
         global folder_name
@@ -158,70 +153,14 @@ class Coronavar():
         else:
             split_3 = split_2[0].split()
             strain_name = split_3[2]
-        print(strain_name)
+       
             
     def main_folder_path(path):
         
         global main_folder
-        
-        #main_folder = input('Enter the folder path : ')
-        #main_folder = '/home/abu/Documents/python project/coronavar/SPIKE/Spike glycoprotein'
         main_folder = path
-        print(main_folder)
-    
-    def graph_output():
-        
-        #Reading csv file:
-        #leucine_read = read_csv('high_leucine.csv')
-        #valine_read = read_csv('high_valine.csv')
-        
-        #Heights of bars:
-        amino_acids = ['A','R','D','N','C','E','Q','G','H','I','L','K','M','F','P','S','T','W','Y','V']
-        
-            #For leucine high proteomes:
-        total_leucine = []
-        for x in amino_acids:
-            y = leucine_read[f'{x}'].tolist()
-            total_leucine.append(sum(y))
-            
-        leucine = []
-        for l in total_leucine:
-            #leucine.append(l/sum(total_leucine)*100)
-            leucine.append(sum(total_leucine))
-            
-            #For valine high proteomes:
-        total_valine = []
-        for x in amino_acids:
-            y = valine_read[f'{x}'].tolist()
-            total_valine.append(sum(y))
-            
-        valine = []
-        for l in total_valine:
-           # valine.append(l/sum(total_valine)*100)
-           valine.append(sum(total_valine))
-        
-        # set width of bar
-        barWidth = 0.30
-        #fig = plt.subplots(figsize =(12, 8))
-        
-        # Set position of bar on X axis
-        br1 = np.arange(len(leucine))
-        br2 = [x + barWidth for x in br1]
-        
-        # Make the plot
-        plt.bar(br1, leucine, color ='r', width = barWidth,
-        		edgecolor ='grey')
-        plt.bar(br2, valine, color ='g', width = barWidth,
-        		edgecolor ='grey')
-        
-        # Adding Xticks
-        plt.xlabel('Amino acids', fontweight ='bold', fontsize = 12)
-        plt.ylabel('Percentage of amino acid', fontweight ='bold', fontsize = 12)
-        plt.xticks([r + barWidth for r in range(len(leucine))],
-        		amino_acids)
-        
-        plt.legend()
-        plt.show()
+       
+  
 
     def run_control(path):
         
@@ -230,10 +169,6 @@ class Coronavar():
         Coronavar.csv_header()
         Coronavar.file_extractor()
         Coronavar.printing_results()
-        #Coronavar.graph_output()
         
         
         
-'''if __name__ == "__main__":            
-    Coronavar.run_control()
-'''
