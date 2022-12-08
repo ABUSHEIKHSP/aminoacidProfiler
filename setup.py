@@ -12,6 +12,7 @@ os.system(f'pip3 install -r {path}/requirements.txt')
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
 
+
 #Adding App to path
 file = open(f'{user}/.bashrc','a+')
 file.write('\n#Adding path for aminoacidProfiler:')
