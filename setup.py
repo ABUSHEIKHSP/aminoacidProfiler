@@ -4,12 +4,10 @@ import os
 #Getting username and dir path:
 user = os.path.expanduser('~')
 path = os.getcwd()
+print(path)
 
 #Installing necessary requiremnts:
-try:
-    os.sysconf(f'pip install -r {path}/requirements.txt')
-except:
-    os.sysconf(f'pip3 install -r {path}/requirements.txt')
+os.system(f'pip3 install -r {path}/requirements.txt')
  
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
