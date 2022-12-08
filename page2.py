@@ -26,7 +26,7 @@ excel = Button(text='view in excel',command=Excel)
 excel.pack()
 
 def goto_link():
-    webbrowser.open('https://aminoacid-profiler-uc636sdsia-el.a.run.app/')
+    webbrowser.open('https://signature-uc636sdsia-as.a.run.app/')
 
 
 gap = tk.Label(result)
