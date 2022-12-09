@@ -1,4 +1,4 @@
-
+#!pyenv/bin/python3
 import tkinter as tk
 from tkinter import filedialog as fd, ttk
 import os, webbrowser
