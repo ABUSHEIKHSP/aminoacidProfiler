@@ -6,7 +6,7 @@ Clone the repository by using the command ```git clone https://github.com/ABUSHE
 
 If you want to clone the repository using ssh you can do so.
 
-The downloaded repository will have the name **aminoacidProfier**.
+The downloaded repository will have the name **aminoacidProfiler**.
 
 
 **How to install aminoacidProfiler**
