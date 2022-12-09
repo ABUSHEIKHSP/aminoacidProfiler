@@ -1,7 +1,7 @@
 #!pyenv/bin/python3
 import tkinter as tk
 from tkinter import filedialog as fd, ttk
-import os, webbrowser
+import os, webbrowser, platform
 from refracted import aminoacidProfiler
 
 
@@ -11,7 +11,11 @@ class aaP:
         webbrowser.open('https://signature-uc636sdsia-as.a.run.app/')
 
     def Excel(self):
-        os.system('libreoffice result.csv')
+        
+        try:
+            os.system('libreoffice result.csv')
+        except:
+            os.system('start excel')
 
     def page2(self):
 
