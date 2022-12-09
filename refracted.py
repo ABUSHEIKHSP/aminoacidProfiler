@@ -31,7 +31,7 @@ class aminoacidProfiler():
                     #des = fasta_detials.description.split('[')[-1].split(']')[-2]
                     strain = fasta_name.split('/')[-1].split('.')[0]
                     geo = fasta_name.split('/')[-1].split('.')[0]
-                    print(geo)
+                    #print(geo)
                     id_des = [id,strain,geo]
                     aa_count = [round((seq.count(aa)/len(seq))*100,1) for aa in single_letter_code ]
                     final_det = id_des + aa_count
@@ -60,7 +60,7 @@ class aminoacidProfiler():
 
         df = pd.DataFrame(sample_storage,columns='ID STRAIN GEO_LOC A R D N C E Q G H I L K M F P S T W Y V'.split())
         df.to_csv(f'{main_folder}/result.csv',index=False)
-        print(df)
+        #print(df)
         
 
 
