@@ -1,4 +1,4 @@
-#!pyenv/bin/python3
+
 #Importing modules:
 
 from prettytable import PrettyTable
