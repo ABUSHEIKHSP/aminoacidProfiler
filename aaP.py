@@ -11,11 +11,9 @@ class aaP:
         webbrowser.open('https://signature-uc636sdsia-as.a.run.app/')
 
     def Excel(self):
+  
+        os.system('libreoffice result.csv')
         
-        try:
-            os.system('libreoffice result.csv')
-        except:
-            os.system('start excel')
 
     def page2(self):
 

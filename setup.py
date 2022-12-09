@@ -7,11 +7,9 @@ path = os.getcwd()
 print(path)
 
 #Installing necessary requiremnts:
-try:
-    #!python.exe
-    os.system(f'pip3 install -r {path}/requirements.txt')
-except:
-    os.system(f'pip3 install -r {path}/requirements.txt')
+
+os.system(f'pip3 install -r {path}/requirements.txt')
+
 
  
 #Building App:
