@@ -2,7 +2,7 @@
 
 **How to clone the repository**
 
-Clone the repository by using the command (git clone https://github.com/ABUSHEIKHSP/aminoacidProfiler.git) in your Terminal.
+Clone the repository by using the command    git clone https://github.com/ABUSHEIKHSP/aminoacidProfiler.git in your Terminal.
 
 If you want to clone the repository using ssh you can do so.
 
