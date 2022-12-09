@@ -1,4 +1,4 @@
-#!python3
+
 import os
 
 #Getting username and dir path:
