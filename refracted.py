@@ -29,10 +29,9 @@ class aminoacidProfiler():
                     #Getting amino_acidin sequence from fasta:
                     seq = fasta_detials.seq
                     id = fasta_detials.id
-                    #des = fasta_detials.description.split('[')[-1].split(']')[-2]
-                    strain = fasta_name.split('/')[-1].split('.')[0]
+                    strain = fasta_detials.description.split('[')[-1].split(']')[-2]
+                    #strain = des.split('/')[-1].split('.')[0]
                     geo = fasta_name.split('/')[-1].split('.')[0]
-                    #print(geo)
                     id_des = [id,strain,geo]
                     aa_count = [round((seq.count(aa)/len(seq))*100,1) for aa in single_letter_code ]
                     final_det = id_des + aa_count
@@ -74,4 +73,4 @@ class aminoacidProfiler():
         
             
 if __name__ == "__main__":            
-    aminoacidProfiler.run_control()
+    aminoacidProfiler.run_control('/home/abu/Desktop/Spike glycoprotein')
