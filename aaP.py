@@ -64,7 +64,6 @@ class aaP:
         self.root.mainloop()
 
 
-
 aaP()      
     
 

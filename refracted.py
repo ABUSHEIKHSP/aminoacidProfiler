@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import glob
 
-
 class aminoacidProfiler(): 
 
     global sample_storage 

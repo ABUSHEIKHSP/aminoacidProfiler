@@ -9,7 +9,6 @@ print(path)
 
 os.system(f'pip3 install -r {path}/requirements.txt')
 
-
  
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')

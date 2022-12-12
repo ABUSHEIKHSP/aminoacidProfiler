@@ -10,10 +10,6 @@ import os
 import numpy as np
 import glob
 
-
-
-
-
 class Coronavar(): 
 
     def data_adder():
