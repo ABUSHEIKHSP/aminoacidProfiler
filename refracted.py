@@ -1,4 +1,3 @@
-
 #Importing modules:
 
 from Bio import SeqIO

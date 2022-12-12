@@ -29,3 +29,4 @@ Close all the existing Terminal windows.
 Open a new Terminal and run the command ```aaP``` to start the **aminoacidProfiler** application.
 
 Restart the System if required.
+

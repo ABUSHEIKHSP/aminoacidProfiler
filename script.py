@@ -1,4 +1,3 @@
-
 #Importing modules:
 
 from prettytable import PrettyTable

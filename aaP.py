@@ -4,7 +4,6 @@ from tkinter import filedialog as fd, ttk
 import os, webbrowser, platform
 from refracted import aminoacidProfiler
 
-
 class aaP:
 
     def goto_link(self):
