@@ -1,4 +1,4 @@
-**aminoacidProfiler**
+**aminoacidProfiler** for Linux
 
 **How to clone the repository**
 
@@ -11,7 +11,7 @@ The downloaded repository will have the name **aminoacidProfiler**.
 
 **How to install aminoacidProfiler**
 
-In Terminal navigate to the aminoacidProfilerdirectory by using the command ``cd``.
+In Terminal navigate to the aminoacidProfiler directory by using the command ``cd``.
 
 Enter ```ls``` to view the files such as aaP.py, page2.py,refracted.py, script.py and setup.py.
 
