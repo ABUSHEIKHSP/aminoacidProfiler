@@ -38,9 +38,13 @@ class aaP:
             pass
 
         folder = fd.askdirectory()
-        aminoacidProfiler.run_control(folder)
-        os.chdir(folder)
-        self.page2()
+
+        if len(folder) > 0:
+            aminoacidProfiler.run_control(folder)
+            os.chdir(folder)
+            self.page2()
+        else:
+            pass
 
     def __init__(self):  
 
@@ -48,8 +52,14 @@ class aaP:
         self.root.title('aminoacidProfiler')
         self.root.geometry('600x400')
 
-        self.w_label = ttk.Label(self.root,text='This is a program for amino acid profiling' )
+        self.root_frame = ttk.Frame(self.root)
+        self.root_frame.pack(side='top', fill='both')
+
+        self.w_label = ttk.Label(self.root_frame,text='This is a program for amino acid profiling' )
         self.w_label.pack(padx=10, pady=5)
+
+        self.W_quit = ttk.Button(self.root_frame, text='Quit', command=self.root.destroy)
+        self.W_quit.pack(side='right', padx=15)
 
         self.notebook = ttk.Notebook(self.root)
         self.notebook.pack(fill='both', expand=True, padx=10, pady=10)
