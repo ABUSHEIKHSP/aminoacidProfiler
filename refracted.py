@@ -71,4 +71,4 @@ class aminoacidProfiler():
         
             
 if __name__ == "__main__":            
-    aminoacidProfiler.run_control('/home/abu/Desktop/Spike glycoprotein')
+    aminoacidProfiler.run_control()
