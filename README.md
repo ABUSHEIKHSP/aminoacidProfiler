@@ -45,7 +45,7 @@ If you need geographical location to be mentioned in the result, name the folder
 ![image](https://user-images.githubusercontent.com/96288958/207559359-783729de-b02e-42b9-a80d-f32cbaa657b0.png)
 
 
-Inside the folder you can add subfolders too. (Ex: Asia/China)
+Inside the folder you can add subfolders too. (Ex: Asia/Malaysia)
 
 ![image](https://user-images.githubusercontent.com/96288958/207559879-a63f6e6b-ddf4-487f-8071-1259bb320c48.png)
 
