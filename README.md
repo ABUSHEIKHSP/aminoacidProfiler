@@ -22,7 +22,7 @@ In the Terminal run setup file by using the command ```python3 setup.py```.
 Setup will complete all the installations.
 
 
-**How to run aminoacidProfiler**
+**How to start aminoacidProfiler**
 
 Close all the existing Terminal windows.
 
@@ -30,5 +30,18 @@ Open a new Terminal and run the command ```aaP``` to start the **aminoacidProfil
 
 Restart the System if required.
 
+
+**How to run aminoacidProfiler**
+
+Create a new folder (optional).
+
+![image](https://user-images.githubusercontent.com/96288958/207559108-48a00852-2abb-43f6-82d2-29548024c2da.png)
+
+
+Download required protein sequecnes in the **FASTA** format.
+
+If you need geographical location to be mentioned in the result, name the folder that geographical location. (Ex: Folder named Asia)
+
+Also if you need to add more geographical location like a country name under the folder, you can do that so. (Ex: Asia/China)
 
 
