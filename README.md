@@ -55,7 +55,7 @@ Add FASTA files specific to that folder.
 ![image](https://user-images.githubusercontent.com/96288958/207560448-fb5a3e8f-a0b9-4aad-8ecd-da69b910cf09.png)
 
 
-Now start the **aminoacidProfiler** by running the command ```aaP```.
+Now start the **aminoacidProfiler** by running the command ```aaP``` in the Terminal.
 
 Click the **select folder** button, and select the Folder.
 
