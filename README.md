@@ -31,7 +31,7 @@ Open a new Terminal and run the command ```aaP``` to start the **aminoacidProfil
 Restart the System if required.
 
 
-**How to run aminoacidProfiler**
+**How to utilise aminoacidProfiler to it's best**
 
 Create a new folder (optional).
 
@@ -42,6 +42,26 @@ Download required protein sequecnes in the **FASTA** format.
 
 If you need geographical location to be mentioned in the result, name the folder that geographical location. (Ex: Folder named Asia)
 
-Also if you need to add more geographical location like a country name under the folder, you can do that so. (Ex: Asia/China)
+![image](https://user-images.githubusercontent.com/96288958/207559359-783729de-b02e-42b9-a80d-f32cbaa657b0.png)
+
+
+Inside the folder you can add subfolders too. (Ex: Asia/China)
+
+![image](https://user-images.githubusercontent.com/96288958/207559879-a63f6e6b-ddf4-487f-8071-1259bb320c48.png)
+
+
+Add FASTA files specific to that folder.
+
+![image](https://user-images.githubusercontent.com/96288958/207560448-fb5a3e8f-a0b9-4aad-8ecd-da69b910cf09.png)
+
+
+Now start the **aminoacidProfiler** by running the command ```aaP```.
+
+Click the **select folder** button, and select the Folder.
+
+**aminoacidProfiler** will automatically detect all the **.fasta** files, from the main folder and it's subfolder.
+
+The result will be saved as **result.csv** in the folder you have selected early, and can also be directly visualized using **aminoacidProfiler**
+
 
 
