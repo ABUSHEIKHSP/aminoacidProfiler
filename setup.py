@@ -1,4 +1,11 @@
-import os
+
+import os, subprocess
+
+try:
+    subprocess.run('sudo killall apt')
+    subprocess.run('chmod 744 bash_setup.sh','chmod 744 bash_setup.sh' )
+except:
+    pass
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
