@@ -1,11 +1,5 @@
 
-import os, subprocess
-
-try:
-    subprocess.run('sudo killall apt')
-    subprocess.run('chmod 744 bash_setup.sh','chmod 744 bash_setup.sh' )
-except:
-    pass
+import os
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
@@ -13,8 +7,12 @@ path = os.getcwd()
 print(path)
 
 #Installing necessary requiremnts:
+try:
+    os.system(f'pip3 install -r {path}/requirements.txt')
+except:
+    os.system('sudo apt install python3-pip')
+    os.system(f'pip3 install -r {path}/requirements.txt')
 
-os.system(f'pip3 install -r {path}/requirements.txt')
 
  
 #Building App:
