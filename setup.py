@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 import os, subprocess
 
 #Getting username and dir path:
