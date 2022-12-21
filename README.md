@@ -19,6 +19,8 @@ If you are not able to view the files, you are on the wrong directory.
 
 Install the necessary requirements by running the command ```pip install requirements.txt``` or ```pip3 install requirements.txt```.
 
+If pip not found, you can install it by running the command ```sudo apt install python3-pip```. After installation run the above command.
+
 In the Terminal run setup file by using the command ```python3 setup.py```.
 
 Setup will complete all the installations.
