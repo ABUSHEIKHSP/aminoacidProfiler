@@ -8,8 +8,9 @@ print(path)
 
 #Installing necessary requiremnts:
 try:
-    os.system(f'python3 -m pip install -r {path}/requirements.txt')
+    os.system(f'pip3 install -r {path}/requirements.txt')
 except:
+    os.system('python3 get-pip.py')
     os.system(f'pip install -r {path}/requirements.txt')
 
 
