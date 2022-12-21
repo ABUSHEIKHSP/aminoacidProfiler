@@ -10,8 +10,7 @@ print(path)
 try:
     os.system(f'pip3 install -r {path}/requirements.txt')
 except:
-    os.system('sudo apt install python3-pip')
-    os.system(f'pip3 install -r {path}/requirements.txt')
+    os.system(f'pip install -r {path}/requirements.txt')
 
 
  
