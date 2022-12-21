@@ -7,13 +7,13 @@ path = os.getcwd()
 print(path)
 
 #Installing pip:
-os.system('sudo apt install python3-pip3')
+os.system('sudo apt install python3-pip')
    
 #Installing necessary requiremnts:
 try:
-    os.system(f'pip3 install -r {path}/requirements.txt')
-except:
     os.system(f'pip install -r {path}/requirements.txt')
+except:
+    os.system(f'pip3 install -r {path}/requirements.txt')
  
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
