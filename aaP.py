@@ -5,6 +5,8 @@ from tkinter import filedialog as fd, ttk
 import os, webbrowser, platform
 from refracted import aminoacidProfiler
 
+os.system('. pyenv/bin/activate')
+
 class aaP:
 
     def goto_link(self):
