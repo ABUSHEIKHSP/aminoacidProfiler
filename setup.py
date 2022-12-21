@@ -7,13 +7,8 @@ path = os.getcwd()
 print(path)
 
 #Checking for pip:
-try:
-    os.system('python3 -m pip --version')
-    print('pip found')
-except:
-    os.system('python3 get-pip.py')
-    print('pip not found')
-
+os.system('python3 get-pip.py')
+    
 
 #Installing necessary requiremnts:
 try:
