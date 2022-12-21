@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import os
+import os, subprocess
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
@@ -7,14 +7,17 @@ path = os.getcwd()
 print(path)
 
 #Checking for pip:
-os.system('python3 get-pip.py')
+try:
+    subprocess.run(['pip3 install -r {path}/requirements.txt'], check = True)
+except subprocess.CalledProcessError:
+    subprocess.run(['python3 get-pip.py --isolated'], check = True)
     
-
+'''    
 #Installing necessary requiremnts:
 try:
     os.system(f'pip3 install -r {path}/requirements.txt')
 except:
-    os.system(f'pip install -r {path}/requirements.txt')
+    os.system(f'pip install -r {path}/requirements.txt')'''
 
 
  
