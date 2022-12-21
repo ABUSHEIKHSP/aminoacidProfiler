@@ -1,5 +1,5 @@
 
-import os, subprocess
+import os, subprocess, shlex
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
@@ -8,9 +8,9 @@ print(path)
 
 #Checking for pip:
 try:
-    subprocess.run(['pip3 install -r requirements.txt'], check = True)
+    subprocess.run(shlex.split('pip3 install -r requirements.txt'), check = True)
 except subprocess.CalledProcessError:
-    subprocess.run(['python3 get-pip.py --isolated'], check = True)
+    subprocess.run(shlex.split('python3 get-pip.py --isolated'), check = True)
     
 '''    
 #Installing necessary requiremnts:
