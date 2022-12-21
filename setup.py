@@ -7,7 +7,7 @@ path = os.getcwd()
 print(path)
 
 #Installing pip:
-os.system('python3 get-pip.py --isolated')
+os.system('sudo apt install pip3')
    
 #Installing necessary requiremnts:
 try:
