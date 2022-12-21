@@ -8,9 +8,9 @@ print(path)
 
 #Checking for pip:
 try:
-    subprocess.run(shlex.split('pip3 install -r requirements.txt'), check = True)
+    subprocess.run(['pip3 install -r', 'requirements.txt'], check = True)
 except subprocess.CalledProcessError:
-    subprocess.run(shlex.split('python3 get-pip.py --isolated'), check = True)
+    subprocess.run(['python3', 'get-pip.py --isolated'], check = True)
     
 '''    
 #Installing necessary requiremnts:
