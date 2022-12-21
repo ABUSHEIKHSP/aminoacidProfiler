@@ -1,11 +1,13 @@
 
-import os, subprocess
+import os
+
+os.system('source pyenv/bin/activate')
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
 path = os.getcwd()
 print(path)
- 
+
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
 
