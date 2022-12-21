@@ -1,5 +1,4 @@
 #!pyenv/bin/python3
-#!/pyenv/bin/pip3
 
 import os
 
