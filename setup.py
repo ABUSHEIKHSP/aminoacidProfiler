@@ -1,18 +1,10 @@
 
-import os, subprocess, shlex
+import os, subprocess
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
 path = os.getcwd()
 print(path)
-
-'''
-   
-#Installing necessary requiremnts:
-try:
-    os.system(f'pip install -r {path}/requirements.txt')
-except:
-    os.system(f'pip3 install -r {path}/requirements.txt')'''
  
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
