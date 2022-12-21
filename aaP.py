@@ -1,11 +1,13 @@
 #!pyenv/bin/python3
 
-import tkinter as tk
-from tkinter import filedialog as fd, ttk
-import os, webbrowser, platform
-from refracted import aminoacidProfiler
+import os
 
 os.system('. pyenv/bin/activate')
+
+import tkinter as tk
+from tkinter import filedialog as fd, ttk
+import webbrowser
+from refracted import aminoacidProfiler
 
 class aaP:
 
