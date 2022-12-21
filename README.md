@@ -17,7 +17,7 @@ Enter ```ls``` to view the files such as aaP.py, page2.py,refracted.py, script.p
 
 If you are not able to view the files, you are on the wrong directory.
 
-Install the necessary requirements by running the command ```pip3 install -rrequirements.txt```.
+Install the necessary requirements by running the command ```pip3 install -r requirements.txt```.
 
 If pip not found, you can install it by running the command ```sudo apt install python3-pip```. After installation run the above command.
 
