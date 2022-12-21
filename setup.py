@@ -6,12 +6,20 @@ user = os.path.expanduser('~')
 path = os.getcwd()
 print(path)
 
+#Checking for pip:
+try:
+    os.system('python3 -m pip --version')
+    print('pip found')
+except:
+    os.system('python3 get-pip.py')
+    print('pip not found')
+
+
 #Installing necessary requiremnts:
 try:
     os.system(f'pip3 install -r {path}/requirements.txt')
 except:
-    os.system('python3 get-pip.py')
-    os.system(f'pip3 install -r {path}/requirements.txt')
+    os.system(f'pip install -r {path}/requirements.txt')
 
 
  
