@@ -2,6 +2,7 @@
 
 import os
 
+
 os.system('/bin/bash --rcfile act.sh')
 
 import tkinter as tk
