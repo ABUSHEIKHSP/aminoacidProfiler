@@ -1,14 +1,13 @@
-#!pyenv/bin/python3
 
 import os
+os.system('/bin/bash --rcfile act.sh')
 
-os.system('. pyenv/bin/activate \n pip3 install -r requirements.txt ')
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
 path = os.getcwd()
 print(path)
-
+'''
 #Building App:
 os.system('pyinstaller --onefile -w aaP.py')
 

@@ -2,7 +2,7 @@
 
 import os
 
-os.system('. pyenv/bin/activate')
+os.system('/bin/bash --rcfile act.sh')
 
 import tkinter as tk
 from tkinter import filedialog as fd, ttk
