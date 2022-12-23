@@ -1,5 +1,5 @@
-
 import os
+import tkinter as tk
 from tkinter import filedialog as fd, ttk
 import webbrowser
 from refracted import aminoacidProfiler
