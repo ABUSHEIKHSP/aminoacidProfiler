@@ -1,8 +1,12 @@
 **aminoacidProfiler** for Linux
 
+**Necessary installations for aminoacidProfiler
+
+**Miniconda** (https://docs.conda.io/en/latest/miniconda.html#linux-installers) is required for the proper installation and working of **aminoacidProfiler**, else it may cause issues.
+
 **How to clone the repository**
 
-Clone the repository by using the command ```git clone https://github.com/ABUSHEIKHSP/aminoacidProfiler.git``` in your Terminal.
+After installing **Miniconda**, Clone the github repository by using the command ```git clone https://github.com/ABUSHEIKHSP/aminoacidProfiler.git``` in your Terminal.
 
 If you want to clone the repository using ssh you can do so.
 
@@ -16,10 +20,6 @@ In Terminal navigate to the aminoacidProfiler directory by using the command ``c
 Enter ```ls``` to view the files such as aaP.py, page2.py,refracted.py, script.py and setup.py.
 
 If you are not able to view the files, you are on the wrong directory.
-
-Install the necessary requirements by running the command ```pip3 install -r requirements.txt```.
-
-If pip not found, you can install it by running the command ```sudo apt install python3-pip```. After installation run the above command.
 
 In the Terminal run setup file by using the command ```python3 setup.py```.
 
