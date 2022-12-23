@@ -1,7 +1,8 @@
-
+#!aap/bin/python3
 import os
-#os.system('/bin/bash --rcfile act.sh')
-os.system('pip3 install requiremnts.txt')
+
+os.system('python3 -m venv aap')
+
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
@@ -16,7 +17,9 @@ file = open(f'{user}/.bashrc','a+')
 file.write('\n#Adding path for aminoacidProfiler:')
 file.write(f'\nexport PATH="{path}/dist/:$PATH"')
 file.close()
-#os.system(f'open {user}/.bashrc')
+#os.system(f'open {user}/.bashrc')'''
+
+
 
 
 

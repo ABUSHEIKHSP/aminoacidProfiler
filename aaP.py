@@ -1,10 +1,6 @@
 #!pyenv/bin/python3
 
 import os
-
-
-os.system('/bin/bash --rcfile act.sh')
-
 import tkinter as tk
 from tkinter import filedialog as fd, ttk
 import webbrowser
