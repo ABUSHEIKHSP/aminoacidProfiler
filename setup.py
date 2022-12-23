@@ -1,6 +1,7 @@
 
 import os
-os.system('/bin/bash --rcfile act.sh')
+#os.system('/bin/bash --rcfile act.sh')
+os.system('pip3 install requiremnts.txt')
 
 #Getting username and dir path:
 user = os.path.expanduser('~')
