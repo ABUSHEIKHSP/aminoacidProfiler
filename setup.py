@@ -1,8 +1,6 @@
 #!aap/bin/python3
 import os
 
-os.system('python3 -m venv aap')
-
 os.system('pip3 install -r requirements.txt')
 
 #Getting username and dir path:
