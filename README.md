@@ -1,6 +1,6 @@
 **aminoacidProfiler** for Linux
 
-**Necessary installations for aminoacidProfiler
+**Necessary installations for aminoacidProfiler**
 
 **Miniconda** (https://docs.conda.io/en/latest/miniconda.html#linux-installers) is required for the proper installation and working of **aminoacidProfiler**, else it may cause issues.
 
